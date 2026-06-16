@@ -1,0 +1,20 @@
+streamlit>=1.28.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+requests>=2.31.0
+networkx>=3.1
+pandas>=2.0.0
+
+
+
+
+# Pull the required model:
+#ollama pull llama3.2:latest
+# Start Ollama (runs on port 11434)
+#ollama serve
+# run this using 
+# ollama pull llama3.2:latest && ollama serve
+#  streamlit run app.py
+# Install Ollama from https://ollama.ai
